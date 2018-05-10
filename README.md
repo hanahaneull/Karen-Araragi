@@ -4,5 +4,5 @@ Agar bot bisa dijalankan, silakan unduh terlebih dahulu :
 - [Discord.JS](http://discord.js.org)
 - [Nodemon](http://nodemon.io)
 
-Hubungi saya di Discord : Serenium#1832
+Jika ada kendala, hubungi saya di Discord : Serenium#1832<br/>
 Terima kasih.
