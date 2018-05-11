@@ -1,4 +1,4 @@
-# Karen Araragi
+# Karen Araragi (Bot)
 ![Karen Araragi](https://puu.sh/Ak8lw.png "Waifunya Serenium.")
 
 Undang Karen ke server Discordmu klik di [sini](http://bit.ly/karen-araragi)!<br/>
