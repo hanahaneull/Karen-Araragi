@@ -14,7 +14,7 @@ fs.readdir("./commands", (err, files) => {
         return;
     }
 
-    console.log(`${jsfiles.length} telah dimuat.`);
+    console.log(`${jsfiles.length} berkas telah dimuat.`);
     jsfiles.forEach((f, i) =>{
         let props = require(`./commands/${f}`);
 
@@ -23,9 +23,9 @@ fs.readdir("./commands", (err, files) => {
 })
 
 bot.on("ready", async() => {
-    console.log(`${bot.user.username} sudah daring!`);
-    console.log(`v0.0.3 | Beta`);
-    bot.user.setActivity("v0.0.3 - Beta | Ketik k.help untuk bantuan.", {type: "WATCHING"});
+    console.log(`${bot.user.username} sudah daring di ${bot.guilds.size} server dengan ${bot.users.size} pengguna.`);
+    console.log(`v0.0.5 | Initial Release`);
+    bot.user.setActivity("v0.0.4 - Initial Release | Ketik k.bantuan untuk bantuan.", {type: "PLAYING"});
 });
 
 bot.on("message", async message =>{
