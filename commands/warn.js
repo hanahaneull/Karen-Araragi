@@ -39,17 +39,17 @@ module.exports.run = async (bot, message, args) => {
 
         let mutetime = "24h";
         await(wUser.addRole(muterole.id));
-        message.channel.send(`Peringatan pertama! ${wUser.tag}, akan kututup mulutmu selama seharian!`);
+        message.channel.send(`Peringatan kedua! <@${wUser.id}>, akan kututup mulutmu selama seharian!`);
 
         setTimeout(function(){
             wUser.removeRole(muterole.id)
-            message.channel.reply(`${wUser.tag}, aku harap kaujera dengan perbuatanmu itu!`);
+            message.reply(`<@${wUser.id}>, aku harap kaujera dengan perbuatanmu itu!`);
         }, ms(mutetime))
     }
 
     if(warns[wUser.id].warns == 3){
         message.guild.member(wUser.id).band(reason);
-        message.channel.send(`${wUser.tag} sudah kualung palu sakti! Ternyata dia tidak jera.`);
+        message.reply(`<@${wUser.id}> sudah kualung palu sakti! Ternyata dia tidak jera.`);
     }
 }
 
