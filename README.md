@@ -1,5 +1,5 @@
 # Karen Araragi
-![Karen Araragi](https://puu.sh/Ak8e7.png "Waifunya Serenium.")
+![Karen Araragi](https://puu.sh/Ak8lw.png "Waifunya Serenium.")
 
 Agar bot bisa dijalankan, silakan unduh terlebih dahulu :
 - [NodeJS](http://nodejs.org)
