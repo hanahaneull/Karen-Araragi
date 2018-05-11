@@ -1,7 +1,7 @@
 # Karen Araragi
 ![Karen Araragi](https://puu.sh/Ak8lw.png "Waifunya Serenium.")
 
-Undang Karen ke server Discordmu klik di [sini](http://bit.ly/karen-araragi)!
+Undang Karen ke server Discordmu klik di [sini](http://bit.ly/karen-araragi)!<br/>
 Agar bot bisa dijalankan, silakan unduh terlebih dahulu :
 - [NodeJS](http://nodejs.org)
 - [Discord.JS](http://discord.js.org)
