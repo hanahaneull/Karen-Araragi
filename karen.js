@@ -24,8 +24,8 @@ fs.readdir("./commands", (err, files) => {
 
 bot.on("ready", async() => {
     console.log(`${bot.user.username} sudah daring di ${bot.guilds.size} server dengan ${bot.users.size} pengguna.`);
-    console.log(`v0.0.6 | Initial Release`);
-    bot.user.setActivity("v0.0.6 - Initial Release | Ketik k.bantuan untuk bantuan.", {type: "PLAYING"});
+    console.log(`v0.0.7 | Release`);
+    bot.user.setActivity("v0.0.7 - Release | k.bantuan", {type: "PLAYING"});
 });
 
 bot.on("message", async message =>{

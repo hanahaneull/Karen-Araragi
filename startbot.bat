@@ -1,3 +1,2 @@
-@echo
-node karen.js
+nodemon karen.js
 pause
