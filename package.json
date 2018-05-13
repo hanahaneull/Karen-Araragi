@@ -1,17 +1,22 @@
 {
   "name": "karen-araragi",
-  "version": "0.0.2",
+  "version": "0.0.8",
   "description": "Bot kesayangan Serenium dan adik perempuan Koyomi Araragi.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main": "karen.js",
   "author": "Serenium#1832",
   "license": "ISC",
   "dependencies": {
     "discord.js": "^11.3.2",
+    "ffmpeg": "0.0.4",
+    "ffmpeg-binaries": "^3.2.2-3",
     "fs": "0.0.1-security",
     "ms": "^2.1.1",
-    "nodemon": "^1.17.4"
+    "nodemon": "^1.17.4",
+    "opusscript": "0.0.6",
+    "snekfetch": "^4.0.0",
+    "superagent": "^3.8.3",
+    "uws": "^10.148.0",
+    "webhook-discord": "^2.3.0",
+    "ytdl-core": "^0.20.3"
   }
 }

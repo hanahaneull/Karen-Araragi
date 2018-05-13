@@ -3,6 +3,7 @@ const tokenfile = require("./token.json");
 const Discord = require("discord.js");
 const bot = new Discord.Client({disableEveryone: true});
 const fs = require("fs");
+const ytdl = require("ytdl-core");
 bot.commands = new Discord.Collection();
 
 fs.readdir("./commands", (err, files) => {
@@ -22,10 +23,12 @@ fs.readdir("./commands", (err, files) => {
     });
 })
 
+var server = {};
+
 bot.on("ready", async() => {
     console.log(`${bot.user.username} sudah daring di ${bot.guilds.size} server dengan ${bot.users.size} pengguna.`);
-    console.log(`v0.0.7 | Release`);
-    bot.user.setActivity("v0.0.7 - Release | k.bantuan", {type: "PLAYING"});
+    console.log(`v0.0.8 | Release`);
+    bot.user.setActivity("v0.0.8 - Release | k.bantuan", {type: "PLAYING"});
 });
 
 bot.on("message", async message =>{
