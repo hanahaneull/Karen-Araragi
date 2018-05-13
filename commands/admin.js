@@ -6,7 +6,7 @@ module.exports.run = async (bot, message, args) => {
         .setColor("RANDOM")
         .setThumbnail(bicon)
         .setAuthor("Nih, komandonya!")
-        .setFooter("v0.0.6 | Initial Release - Serenium#1832")
+        .setFooter("v0.0.8 | Release - Serenium#1832")
         .addField("``k.addrole``", "Karen akan memberikan role untukmu.")
         .addField("``k.removerole``", "Karen akan menghapus role yang telah kamu pasang.")
         .addField("``k.lapor``", "Karen akan melaporkan dengan segera!")

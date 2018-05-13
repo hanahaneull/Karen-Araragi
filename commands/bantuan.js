@@ -6,7 +6,7 @@ module.exports.run = async (bot, message, args) => {
         .setColor("RANDOM")
         .setThumbnail(bicon)
         .setAuthor("Nih, komandonya!")
-        .setFooter("v0.0.7 | Release - Serenium#1832")
+        .setFooter("v0.0.8 | Release - Serenium#1832")
         .addField("``k.avatar``","Karen akan memberikan foto profilmu atau foto profil orang lain.")
         .addField("``k.yo``", "Karen akan menyapamu!")
         .addField("``k.ping``", "Karen akan memberitahu perjalanan waktunya.")
